@@ -7,10 +7,13 @@ public class PatternMaker {
 
     public PatternMaker() {
         System.out.println("HI pattern maker");
-        Pattern1();
-        Pattern2();
-        Pattern3();
-        Pattern5();
+    //    Pattern1();
+    //    Pattern2();
+     //   Pattern3();
+     //   Pattern4();
+    Pattern5();
+        Pattern6();
+
     }
 
 
@@ -46,7 +49,24 @@ public class PatternMaker {
                 System.out.print(c + "\t");
 
         }
-
     }
-}
 
+        public void Pattern4() {
+            for (int w = 1; w < 6; w++) {
+                for (int d = 1; d < 6; d++)
+                    System.out.print(w*3 +"\t");
+
+            }
+        }
+
+    public void Pattern6() {
+        for (int a = 1; a < 6; a++) {
+            for (int b = 1; b < a; b++){
+                System.out.print( "  ");
+
+        }
+            System.out.println(a);
+
+        }
+
+    }}
